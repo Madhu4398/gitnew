@@ -17,7 +17,7 @@
             var fs=5;
             var ids=document.getElementById("demo");
             function inTimer(){
-                ids.innerHTML="TEXT GROWING";
+                ids.innerHTML=" GROWING";
                 ids.setAttribute('style',"font-size"+fs+"px;color:red");
                 fs +=5;
                 if(fs>=50){
@@ -28,7 +28,7 @@
             }
             function deTimer(){
                 fs-=5;
-                ids.innerHTML="TEXT SHRINKING";
+                ids.innerHTML="TEXT";
                 ids.setAttribute('style',"font-size"+fs+"px;color:blue");
                 if(fs==5){
                     clearInterval(var2);
